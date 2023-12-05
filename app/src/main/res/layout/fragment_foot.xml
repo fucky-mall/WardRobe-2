@@ -1,0 +1,23 @@
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrd"
+    tools:context="com.example.varun.wardrobe.FootFragment">
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <GridView
+        android:layout_below="@+id/space"
+        android:numColumns="2"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/grid_view"/>
+
+</RelativeLayout>
